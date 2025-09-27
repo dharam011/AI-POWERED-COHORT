@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+  padding: 2em;
+}
+main .hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+main .hero-text .image img {
+  width: 100%;
+}
+main .hero-text .p {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+main .sec-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .sec-2 .image {
+  width: 100%;
+}
+main .sec-2 .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec-2 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .sec-2 .content .heading h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.9em;
+  text-transform: uppercase;
+  font-weight: 330;
+  letter-spacing: 0.8;
+  line-height: 0.95;
+}
+main .sec-2 .content .para p {
+  font-size: 1.55em;
+  line-height: 1.3;
+  opacity: 0.9;
+}
+main .sec-2 .content .services {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+main .sec-2 .content .services .service {
+  display: flex;
+  justify-content: space-between;
+}
+main .sec-2 .content .services .service p {
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .sec-3 {
+  width: 100%;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+}
+main .sec-3 .top {
+  width: 100%;
+}
+main .sec-3 .top .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec-3 .bottom {
+  display: flex;
+  gap: 2em;
+}
+main .sec-3 .bottom .vertical p {
+  margin-top: 0.6em;
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+}
+main .sec-3 .bottom .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .sec-3 .bottom .content .heading h1 {
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 2.7em;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .sec-3 .bottom .content .para p {
+  font-size: 1.5em;
+  opacity: 0.5;
+  font-family: monospace;
+}
+main .sec-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .sec-4 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .sec-4 .top .heading h1 {
+  font-size: 3.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 350;
+}
+main .sec-4 .top .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main .sec-4 .top .box1 .box {
+  border-top: 1px solid gray;
+  display: flex;
+  gap: 2em;
+  padding-top: 1em;
+  justify-content: space-around;
+  flex-direction: column;
+}
+main .sec-4 .top .box1 .box .head h1 {
+  font-size: 1.8em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 350;
+}
+main .sec-4 .top .box1 .box .para p {
+  font-size: 1.3em;
+  opacity: 0.5;
+}
+main .sec-4 .top .box1 .box .icon {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+main .sec-4 .top .box1 .box .icon i {
+  font-size: 1em;
+  width: 1.5em;
+  aspect-ratio: 1/1;
+  font-weight: 100;
+  border-radius: 1em;
+  padding: 0.2em;
+  background-color: black;
+  color: white;
+}
+main .sec-4 .top .box1 .box .icon .p2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+main .sec-4 .image {
+  width: 100%;
+}
+main .sec-4 .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main hr {
+  margin-top: 1.5em;
+  padding: 0;
+}
+main .sec-5 {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 100%;
+}
+main .sec-5 .first .image {
+  width: 100%;
+}
+main .sec-5 .first .image img {
+  width: 100%;
+}
+main .sec-5 .second {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+main .sec-5 .second .image {
+  width: 100%;
+}
+main .sec-5 .second .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec-5 .second .image2 {
+  width: 100%;
+}
+main .sec-5 .second .image2 img {
+  display: none;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec-5 .second .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .sec-5 .second .text h1 {
+  font-size: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main .sec-5 .second .text p {
+  font-size: 1.4em;
+  font-weight: 800;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+main .sec-5 .second .text .button {
+  display: flex;
+  gap: 2em;
+}
+main .sec-5 .second .text .button i {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  padding: 0.5em;
+  opacity: 0.7;
+}
+main .sec-5 .second .text .button p {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .sec-5 .third {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1em;
+  width: 100%;
+}
+main .sec-5 .third .image {
+  width: 100%;
+}
+main .sec-5 .third .image img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec-5 .third .image2 {
+  width: 100%;
+}
+main .sec-5 .third .image2 img {
+  display: none;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec-5 .third .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .sec-5 .third .text h1 {
+  font-size: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main .sec-5 .third .text p {
+  font-size: 1.4em;
+  font-weight: 800;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+main .sec-5 .third .text .button {
+  display: flex;
+  gap: 2em;
+}
+main .sec-5 .third .text .button i {
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  padding: 0.5em;
+  opacity: 0.7;
+}
+main .sec-5 .third .text .button p {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media (min-width: 1020px) {
+  main {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    width: 100%;
+  }
+  main .sec-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5em;
+  }
+  main .sec-2 .image {
+    width: 110%;
+    aspect-ratio: 1/1;
+  }
+  main .sec-2 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  main .sec-2 .content .heading h1 {
+    font-size: 5.1em;
+  }
+  main .sec-2 .content .para p {
+    font-size: 1.8em;
+    width: 70%;
+  }
+  main .sec-2 .content .services {
+    gap: 0.3em;
+    margin-top: auto;
+  }
+  main .sec-2 .content .services hr {
+    opacity: 0.5;
+  }
+  main .sec-2 .content .services .service p {
+    font-weight: 300;
+    font-size: 2.4em;
+  }
+  main .sec-3 {
+    display: flex;
+    flex-direction: initial;
+    gap: 3em;
+  }
+  main .sec-3 .top .image {
+    width: 100%;
+  }
+  main .sec-3 .top .image img {
+    width: 80%;
+  }
+  main .sec-3 .bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5em;
+  }
+  main .sec-3 .bottom .content .heading h1 {
+    font-size: 5.5em;
+  }
+  main .sec-3 .bottom .content .para {
+    margin-top: auto;
+  }
+  main .sec-3 .bottom .content .para p {
+    margin-top: auto;
+  }
+  main .sec-4 {
+    flex-direction: initial;
+    gap: 4em;
+  }
+  main .sec-4 .top {
+    gap: 5em;
+  }
+  main .sec-4 .top .heading h1 {
+    font-size: 6.3em;
+    line-height: 1;
+  }
+  main .sec-4 .top .box1 {
+    flex-direction: initial;
+    gap: 4em;
+  }
+  main .sec-4 .top .box1 .box .icon i {
+    font-size: 1.5em;
+  }
+  main .sec-4 .top .box1 .box .icon p {
+    font-weight: 100;
+  }
+  main .sec-5 .second {
+    margin-top: 3em;
+    flex-direction: initial;
+    gap: 3em;
+  }
+  main .sec-5 .second .image {
+    width: 45%;
+  }
+  main .sec-5 .second .image2 {
+    width: 45%;
+  }
+  main .sec-5 .second .image2 img {
+    display: initial;
+  }
+  main .sec-5 .second .text {
+    padding-top: 2em;
+    padding-left: 2em;
+    width: 45%;
+  }
+  main .sec-5 .second .text h1 {
+    font-size: 4em;
+    font-weight: 350;
+  }
+  main .sec-5 .second .text p {
+    opacity: 0.8;
+    font-weight: 300;
+  }
+  main .sec-5 .second .text .button {
+    margin-top: auto;
+    margin-bottom: 5em;
+  }
+  main .sec-5 .third {
+    flex-direction: initial;
+    gap: 2.3em;
+  }
+  main .sec-5 .third .image {
+    width: 45%;
+  }
+  main .sec-5 .third .image2 {
+    width: 45%;
+  }
+  main .sec-5 .third .image2 img {
+    display: initial;
+  }
+  main .sec-5 .third .text {
+    padding-top: 2em;
+    padding-left: 2em;
+    width: 45%;
+  }
+  main .sec-5 .third .text h1 {
+    font-size: 4em;
+    font-weight: 350;
+  }
+  main .sec-5 .third .text p {
+    opacity: 0.8;
+    font-weight: 300;
+  }
+  main .sec-5 .third .text .button {
+    margin-bottom: 5em;
+    margin-top: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
